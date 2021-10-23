@@ -15,7 +15,7 @@ button.addEventListener('click', logger);
 
 range.addEventListener('input', function () {
     span.textContent = range.value;
-    circle.setAttribute("style", `width: ${range.value}%; height: ${range.value}%` )
+    circle.setAttribute("style", `width: ${range.value}%; height: ${range.value}%`)
 
     //circle.style.width = range.value + "%"
     //circle.style.height = range.value + "%"
