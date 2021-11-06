@@ -18,7 +18,6 @@ range.addEventListener('input', function () {
     circle.setAttribute("style", `width: ${range.value}%; height: ${range.value}%`)
 
 
-
 })
 
 
